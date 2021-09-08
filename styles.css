@@ -82,6 +82,7 @@ overflow: hidden;
     border-top-left-radius: 55px;
     align-content: center;
 text-align: center;
+position: relative;
 
 }
 .card-deck{
@@ -145,11 +146,12 @@ margin-bottom: 0;
     list-style-type: none;
 }
 .user_info_image{
-    height: 100px;
+    height: 120px;
     position: static;
-    border-radius: 100%;
+    border-radius: 80%;
     margin-top: 50px;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: static;
 }
 .user_info_image:hover{
     transform: scale(1.04);
@@ -236,6 +238,8 @@ width: 100%;
 border-top-left-radius: 55px;
 border-bottom-left-radius: 55px;
 display: grid;
+overflow: hidden;
+
 }
 
 
@@ -265,6 +269,17 @@ display: grid;
 margin-left: 80%;
 margin-top: -100px;
 position: absolute;
+}
+.hgfj{
+    position: relative;
+}
+.improgg{
+padding-left: 40%;
+padding-bottom: 2%;
+
+z-index: 1000;
+position:absolute;
+overflow: hidden;
 }
 .add_button:hover {background-color: #30363b}
 .add_button:active {

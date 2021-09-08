@@ -30,7 +30,7 @@
            
         
         <div class="user_info navbar-brand">
-         <img aria-hidden="false" draggable="false" loading="lazy" src="images/iann_dior.jpg"  alt="user image" class="user_info_image">
+         <img aria-hidden="false" draggable="false" loading="lazy" src="images/iann_dior.jpg.png"  alt="user image" class="user_info_image">
          <div class="text_user_info"><span class="text_user_info">Hello, </span>  <span class="text_user_info" id="tui" onmouseover="hoverText(this)" onmouseout="noHoverText(this)" style="font-weight: bold;" >Hamdy</span></div>
          </div>
 
@@ -58,14 +58,16 @@
     
     <div class="main_content_real">
      <div class="payment">
-   
+      <div class="hgfj">   <img class="improgg" height="250"  src="images/progress-report.png" alt="">  </div>
      <div class="ppp">        <h2 class="payment_maint_content_fr">Payment</h2>
-        
+    
+  
+     
 
     </div>
-<div class="ad_banner">
-    <div class="ad_text">      
-        <h3 >Payment and </h3><h3>other <span style="border: ;">Allowance</span></h3> <button class="add_button">Learn More</button></div>
+<div class="ad_banner"> 
+    <div class="ad_text">     
+        <h3 >Payment and </h3><h3>other <span style="border: ;">Allowance</span></h3> <button class="add_button">Learn More</button> </div>
 
 </div>
      </div>
@@ -216,18 +218,23 @@
     <div class="side_bar">
         
     </div>
-    <script>
+   
+   <script>
 
+
+  document.getElementById("tui").innerHTML = welcome + '<span id="s">'+userNamef + '</span>';
+  
   function hoverText(){
-    let div = document.getElementById('tui')
-    div.style.color='red'
+    let div = document.getElementById('s')
+    div.style.color='blue'
     }
     
     function noHoverText(){
-    let div = document.getElementById('tui')
+    let div = document.getElementById('s')
     div.style.color='black'
     }
 
     </script>
+
 </body>
 </html>
